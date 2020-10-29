@@ -16,8 +16,8 @@
 		893947F224D42C10003E8E77 /* RequestBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893947EE24D42C10003E8E77 /* RequestBuilder.swift */; };
 		893947F524D42CD1003E8E77 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893947F424D42CD1003E8E77 /* ApiService.swift */; };
 		893947F924D46923003E8E77 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 893947F824D46923003E8E77 /* Endpoint.swift */; };
-		895BC2BB254B28C800A298CC /* mvvm-architecture.png in Resources */ = {isa = PBXBuildFile; fileRef = 895BC2BA254B28C800A298CC /* mvvm-architecture.png */; };
 		895BC2C3254B28F600A298CC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 895BC2C2254B28F600A298CC /* README.md */; };
+		895BC2CE254B2F3800A298CC /* mvvm-architecture.png in Resources */ = {isa = PBXBuildFile; fileRef = 895BC2CD254B2F3800A298CC /* mvvm-architecture.png */; };
 		899E12EC24C9E31600F5D8A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E12EB24C9E31600F5D8A1 /* AppDelegate.swift */; };
 		899E12EE24C9E31600F5D8A1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E12ED24C9E31600F5D8A1 /* SceneDelegate.swift */; };
 		899E12F024C9E31600F5D8A1 /* MainContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E12EF24C9E31600F5D8A1 /* MainContentView.swift */; };
@@ -58,8 +58,8 @@
 		893947EE24D42C10003E8E77 /* RequestBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBuilder.swift; sourceTree = "<group>"; };
 		893947F424D42CD1003E8E77 /* ApiService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
 		893947F824D46923003E8E77 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
-		895BC2BA254B28C800A298CC /* mvvm-architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mvvm-architecture.png"; sourceTree = "<group>"; };
 		895BC2C2254B28F600A298CC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		895BC2CD254B2F3800A298CC /* mvvm-architecture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mvvm-architecture.png"; sourceTree = "<group>"; };
 		899E12E824C9E31600F5D8A1 /* SimpleCleanCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCleanCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		899E12EB24C9E31600F5D8A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		899E12ED24C9E31600F5D8A1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -145,7 +145,7 @@
 		895BC2B9254B28C800A298CC /* images */ = {
 			isa = PBXGroup;
 			children = (
-				895BC2BA254B28C800A298CC /* mvvm-architecture.png */,
+				895BC2CD254B2F3800A298CC /* mvvm-architecture.png */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -363,9 +363,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				899E12F824C9E31800F5D8A1 /* LaunchScreen.storyboard in Resources */,
+				895BC2CE254B2F3800A298CC /* mvvm-architecture.png in Resources */,
 				899E12F524C9E31800F5D8A1 /* Preview Assets.xcassets in Resources */,
 				895BC2C3254B28F600A298CC /* README.md in Resources */,
-				895BC2BB254B28C800A298CC /* mvvm-architecture.png in Resources */,
 				899E12F224C9E31800F5D8A1 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
