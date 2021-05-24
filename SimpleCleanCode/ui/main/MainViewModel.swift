@@ -17,7 +17,7 @@ class MainViewModel: ObservableObject, ApiService {
     
     @Published private(set) var loading = false
     @Published private(set) var activeError: String?
-    @Published private(set) var dummyObjects = [DummyObject]()
+    @Published private(set) var posts = [Post]()
     @Published private(set) var alertData = (title: String, message: String)?.none
 
     var isPresentingAlert: Binding<Bool> {
@@ -47,9 +47,9 @@ class MainViewModel: ObservableObject, ApiService {
                     self.alertData = (title: "Error", message: anError.localizedDescription)
                     print("received error: ", anError)
                 }
-            }, receiveValue: { someValue in
+            }, receiveValue: { receivedPosts in
                 self.loading = false
-                self.dummyObjects = someValue
+                self.posts = receivedPosts
                 self.alertData = (title: "Success", message: "Data loaded successfully")
             })
     }

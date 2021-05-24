@@ -26,7 +26,7 @@
 		899E12F824C9E31800F5D8A1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899E12F624C9E31800F5D8A1 /* LaunchScreen.storyboard */; };
 		899E130324C9E31900F5D8A1 /* SimpleCleanCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E130224C9E31900F5D8A1 /* SimpleCleanCodeTests.swift */; };
 		899E130E24C9E31900F5D8A1 /* SimpleCleanCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E130D24C9E31900F5D8A1 /* SimpleCleanCodeUITests.swift */; };
-		899E132424C9E68C00F5D8A1 /* DummyObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E132324C9E68C00F5D8A1 /* DummyObject.swift */; };
+		899E132424C9E68C00F5D8A1 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E132324C9E68C00F5D8A1 /* Post.swift */; };
 		899E133424C9EC3300F5D8A1 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E133324C9EC3300F5D8A1 /* MainViewModel.swift */; };
 		899E133724C9FA3E00F5D8A1 /* MainRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899E133624C9FA3D00F5D8A1 /* MainRow.swift */; };
 /* End PBXBuildFile section */
@@ -74,7 +74,7 @@
 		899E130924C9E31900F5D8A1 /* SimpleCleanCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCleanCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		899E130D24C9E31900F5D8A1 /* SimpleCleanCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCleanCodeUITests.swift; sourceTree = "<group>"; };
 		899E130F24C9E31900F5D8A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		899E132324C9E68C00F5D8A1 /* DummyObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DummyObject.swift; sourceTree = "<group>"; };
+		899E132324C9E68C00F5D8A1 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 		899E133324C9EC3300F5D8A1 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
 		899E133624C9FA3D00F5D8A1 /* MainRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -217,7 +217,7 @@
 		899E131F24C9E3E600F5D8A1 /* model */ = {
 			isa = PBXGroup;
 			children = (
-				899E132324C9E68C00F5D8A1 /* DummyObject.swift */,
+				899E132324C9E68C00F5D8A1 /* Post.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
@@ -397,7 +397,7 @@
 				890BEC0324DAFD6600AEF176 /* BlurView.swift in Sources */,
 				893947F524D42CD1003E8E77 /* ApiService.swift in Sources */,
 				899E12EE24C9E31600F5D8A1 /* SceneDelegate.swift in Sources */,
-				899E132424C9E68C00F5D8A1 /* DummyObject.swift in Sources */,
+				899E132424C9E68C00F5D8A1 /* Post.swift in Sources */,
 				893947EF24D42C10003E8E77 /* APIService.swift in Sources */,
 				893947F024D42C10003E8E77 /* APIError.swift in Sources */,
 				893947F224D42C10003E8E77 /* RequestBuilder.swift in Sources */,

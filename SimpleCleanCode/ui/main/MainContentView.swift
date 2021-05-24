@@ -16,8 +16,8 @@ struct MainContentView: View {
     var body: some View {
         NavigationView {
             ZStack{
-                List(viewModel.dummyObjects) { dummyObject in
-                    MainRow(dummyObject: dummyObject)
+                List(viewModel.posts) { post in
+                    MainRow(post: post)
                 }
                 .blur(radius: self.viewModel.loading ? 3.0 : 0.0)
                 ProgressHud()

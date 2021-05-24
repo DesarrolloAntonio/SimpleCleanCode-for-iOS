@@ -12,13 +12,13 @@ import UIKit
 
 protocol ApiService {
     var apiService: APIService {get}
-    func getData() -> AnyPublisher<[DummyObject], APIError>
+    func getData() -> AnyPublisher<[Post], APIError>
 }
 
 extension ApiService {
     
-    func getData() -> AnyPublisher<[DummyObject], APIError> {
-        return apiService.request(with: EndPoint.listDummyObjects )
+    func getData() -> AnyPublisher<[Post], APIError> {
+        return apiService.request(with: EndPoint.listPosts )
             .eraseToAnyPublisher()
     }
 }

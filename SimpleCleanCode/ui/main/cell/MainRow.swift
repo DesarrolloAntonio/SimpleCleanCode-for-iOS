@@ -10,14 +10,14 @@ import SwiftUI
 
 struct MainRow: View {
     
-    var dummyObject: DummyObject
+    var post: Post
 
     var body: some View {
         VStack(alignment: .leading, spacing: 8) {
-            Text(dummyObject.title)
+            Text(post.title)
                 .lineLimit(nil)
                 .font(.headline)
-            Text(dummyObject.body)
+            Text(post.body)
                 .foregroundColor(.secondary)
                 .font(.footnote)
         }
@@ -27,6 +27,6 @@ struct MainRow: View {
 
 struct MainRow_Previews: PreviewProvider {
     static var previews: some View {
-        MainRow(dummyObject: DummyObject(id: 1, userId: 1, title: "Title", body: "Body"))
+        MainRow(post: Post(id: 1, userId: 1, title: "Title", body: "Body"))
     }
 }

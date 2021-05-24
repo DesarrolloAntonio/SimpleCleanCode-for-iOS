@@ -10,7 +10,7 @@ import Foundation
 
 enum EndPoint: RequestBuilder {
     
-    case listDummyObjects
+    case listPosts
 
     var urlRequest: URLRequest {
             guard let url = URL(string: "https://jsonplaceholder.typicode.com/posts")

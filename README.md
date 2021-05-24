@@ -10,7 +10,7 @@ In this first release, the project doesn't store local database
 ## Project 
 * `ApiService.swift` - Web Server where retrieve the JSON data.
 * `EndPoint.swift` - Class to manage EndPoints.
-* `DummyObject.swift` - Data model with the information to show in the table.
+* `Post.swift` - Data model with the information to show in the table.
 * `MainRow.swift` - The cell of the main list
 * `MainContentView.swift` - Main view of the project with the list of items
 * `MainViewModel.swift` - ViewModel of the MainContentView, prepare and manage the data for a UI component
